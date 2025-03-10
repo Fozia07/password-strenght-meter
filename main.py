@@ -75,10 +75,12 @@ password = st.text_input("Enter your password", type="password")
 st.button("check password")
 
 st.markdown("""
-✅ **Feature 1:** Use the password strenght meter to check the strenght of your password 
-🚀 **Feature 2:** use uppercase, Lowercase, number and special charchters to make your password strong 
-📊 **Feature 3:** get a good password and use it to secure your account
-""")
+✅ **Feature 1:** Use the password strenght meter to check the strenght of your password <br>
+            
+🚀 **Feature 2:** use uppercase, Lowercase, number and special charchters to make your password strong <br>
+            
+📊 **Feature 3:** get a good password and use it to secure your account <br>
+""", unsafe_allow_html=True)
 
 
 if password:
